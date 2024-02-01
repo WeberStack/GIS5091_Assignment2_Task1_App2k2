@@ -9,15 +9,15 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/FeatureLayer"], (Map, Ma
 
           extent: {
             // autocasts as new Extent()
-            xmin: -19942590,
-            ymin: 2023662,
-            xmax: -20012847,
-            ymax: 11537127,
+            xmin: -14579808,
+            ymin: 2931819,
+            xmax: -6857166,
+            ymax: 6685336,
             spatialReference: 102100
           }
         });
+  
 
- 
 var featureLayer_1 = new FeatureLayer({
   url: "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/ACS_2016_County_Education/FeatureServer"
 });
