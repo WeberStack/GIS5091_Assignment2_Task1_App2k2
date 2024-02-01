@@ -21,13 +21,11 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/FeatureLayer"], (Map, Ma
 var featureLayer_1 = new FeatureLayer({
   url: "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/ACS_2016_County_Education/FeatureServer"
 });
-
 map.add(featureLayer_1);
 
 var featureLayer_2 = new FeatureLayer({
   url: "https://services1.arcgis.com/4yjifSiIG17X0gW4/arcgis/rest/services/Point_in_Time_Count_2019/FeatureServer"
 });
-
 map.add(featureLayer_2);
 
 });
